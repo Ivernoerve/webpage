@@ -1,0 +1,43 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Iver Nørve'
+theme = 'page_theme'
+
+
+[markup.goldmark.parser.attribute]
+block = "true"
+title = "true"
+
+
+[menu]
+
+[[menu.Main]]
+pageRef = "notes"
+identifier = 'notes'
+name = 'Notes'
+title = 'Notes'
+url = '/Notes'
+weight = -10
+
+[[menu.Main]]
+pageRef = "about"
+identifier = 'about'
+name = 'About'
+title = 'About'
+url = '/About'
+weight = -110
+
+[[menu.Main]]
+pageRef = "projects"
+identifier = 'projects'
+name = 'Projects'
+title = 'Projects'
+url = '/Projects'
+weight = -50
+
+
+[taxonomies]
+  category = "category"
+
+[permalinks]
+  category = "/notes/:slug/"

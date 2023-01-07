@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ range.Data.Pages.ByDate }}
+<article class="row">
+        <div class='short-collumn'>
+            <img src = "/projects/{{.Params.imgpath}}" class='hobby-img' alt='I am imageless'/>   
+        </div>
+        <div class='long-collumn'>            
+            <h3> <a href="{{ .RelPermalink }}">{{.Title}}</a></h3>
+            <p>{{ .Summary }}</p>
+        </div>  
+</article>
+{{ end }}
+
+{{ partial "footer.html" . }}
+
+

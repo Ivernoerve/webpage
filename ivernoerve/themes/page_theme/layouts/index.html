@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<div class = "front-image">
+    <img src = "/general/{{.Params.imgpath}}" alt='I am imageless'/>   
+</div>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}

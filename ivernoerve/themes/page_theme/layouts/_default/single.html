@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<ul>
+    {{ range .Site.Taxonomies.category }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+    {{ end }}
+</ul>
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}

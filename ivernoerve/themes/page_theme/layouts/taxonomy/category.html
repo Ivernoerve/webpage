@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<h1 class = ><a href={{ ref . "notes" }} class = "tax-backlink">Notes</a>/{{ .Title }}</h1>
+
+
+
+<ul class="notes-display">
+    {{ range.Data.Pages }}
+    <article class="post-snippet">
+      <li>        
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "2006, January 2" }}
+        </time>
+
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    </article>
+    {{ end }}
+    </ul>
+{{ partial "footer.html" . }}
+
