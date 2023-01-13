@@ -7,7 +7,7 @@
 
 <p>Subsection-categories within the notes section</p>
 <ul class="category-menu">
-  {{ range .Site.Taxonomies.category }}
+  {{ range .Site.Taxonomies.categories }}
           <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
   {{ end }}
 </ul>

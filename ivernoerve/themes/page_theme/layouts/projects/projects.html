@@ -7,7 +7,10 @@
 {{ range.Data.Pages.ByDate }}
 <article class="row">
         <div class='short-collumn'>
-            <img src = "/projects/{{.Params.imgpath}}" class='hobby-img' alt='I am imageless'/>   
+
+            {{ with .Params.imgpath }} 
+            <img src = "/projects/{{.}}" class='hobby-img' alt='I am imageless'/>   
+            {{end}}
         </div>
         <div class='long-collumn'>            
             <h3> <a href="{{ .RelPermalink }}">{{.Title}}</a></h3>

@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://iver.noerve.com/'
 languageCode = 'en-us'
 title = 'Iver Nørve'
 theme = 'page_theme'
@@ -37,7 +37,8 @@ weight = -50
 
 
 [taxonomies]
-  category = "category"
+
+  category = "categories"
 
 [permalinks]
-  category = "/notes/:slug/"
+  categories = "/notes/:slug/"

@@ -6,13 +6,13 @@
     </a>
   </h1>
     <ul class="main-menu">
-      {{ $currentPage := . }}
-      {{ $section := .Site.GetPage $currentPage.Section }}
-      {{ range .Site.Menus.main }}
-      <li>
 
+      {{$page_parent := index (split .Page.Permalink "/") 3}}
+      {{ range .Site.Menus.main }}
+
+      <li>
         <a 
-        class="{{ if $section.IsMenuCurrent "main" . }}main-menu-active{{ end }}"
+        class="{{ if eq ($page_parent) (.Identifier) }}main-menu-active{{ end }}"
         href="{{ .URL }}">
           {{ .Name }}
         </a>
@@ -20,6 +20,5 @@
       {{ end }}
     </ul>
   </nav>
-  {{$currentPage}}
-</header>
+  </header>
 

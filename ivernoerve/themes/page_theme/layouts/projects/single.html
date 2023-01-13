@@ -1,11 +1,33 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1>
+
+
+    <h1>{{ .Title }}</h1>
+
+
+
+
+
+
+
+{{ with .Params.imgpath }} 
 
 <div class = "project-image">
-    <img src = "/projects/{{.Params.imgpath}}" alt='I am imageless'/>   
+    <img src = "/projects/{{.}}" alt='I am imageless'/>   
 </div>
 
+{{end}}
+
+
 {{ .Content }}
+
+{{ with .Params.git }} 
+<div class = "git-logo">
+    <a href="{{ . }}">
+        <img src = "/projects/common/github-mark.png">
+    </a>
+</div>
+
+{{end}}
 
 {{ partial "footer.html" . }}
