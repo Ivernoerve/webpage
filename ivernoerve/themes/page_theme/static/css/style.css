@@ -87,7 +87,7 @@ body {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .site-nav,
   .main-menu {
     flex-direction: column;
@@ -186,7 +186,7 @@ body {
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .short-collumn {
     flex: 1;
   }

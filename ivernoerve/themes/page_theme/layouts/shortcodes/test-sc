@@ -1,0 +1,3 @@
+<div>
+    {{cond (isset .Params 0 ) (.Get 0) "noooo"}}
+</div>
