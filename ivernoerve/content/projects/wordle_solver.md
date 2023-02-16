@@ -1,12 +1,12 @@
 ---
 title: "Wordle solver"
 date: 2022-11-14T10:55:17+01:00
-draft: true
+draft: false
 imgpath: wordle.jpeg
 git: https://github.com/Ivernoerve/wordle_solver
 ---
 
-One random afternoon at the university i sat with a friend and procrastinated from an assignment in my object oriented programming course, which led me to solve the wordle of the day. While solving it I wondered if i could make a program to solve it for me. And thus the work towards a wordle bot began.
+One random afternoon at the university i sat with a friend and procrastinated from an assignment in my object oriented programming course, which led me to solve the wordle of the day. While solving it I wondered if i could make a program to solve it for me. And thus the work towards a wordle solver began.
 
 
 
@@ -16,13 +16,6 @@ One random afternoon at the university i sat with a friend and procrastinated fr
 
 
 
-
-{{<project-image wordle.jpeg >}}
-
-
-
 ## Communicating with the browser 
 The program must be able to interact with the browser, so that it can insert guesses, remove invalid guesses, and get the responses for accepted guesses. This was acchieved with the selenium webdriver package, with a script.
 The program must be able to interact with the browser, so that it can insert guesses, remove invalid guesses, and get the responses for accepted guesses. This was acchieved with the selenium webdriver package by writing a general class _Browser_  for general webpage interaction i.e; input words, select elemenents etc...
-
-

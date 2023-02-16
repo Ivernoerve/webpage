@@ -1,8 +1,8 @@
 ---
 title: "Clustering algorithms"
 date: 2022-11-14T10:55:17+01:00
-draft: true
-imgpath: wordle.jpeg
+draft: false
+imgpath: k_means.png
 math: true
 git: https://github.com/Ivernoerve/clustering_algorithms
 ---

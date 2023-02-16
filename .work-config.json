@@ -1,0 +1,23 @@
+{
+  "project": "ivernoerve",
+  "language": "html",
+  "path": "/Users/ivernorve/Documents/programming_projects/webpage",
+  "tools": [
+    {
+      "tool": "finder",
+      "src": "."
+    },
+    {
+      "tool": "safari",
+      "src": "localhost:1313/"
+    },
+    {
+      "tool": "sublime",
+      "src": "ivernoerve/"
+    },
+    {
+      "tool": "terminal",
+      "src": "ivernoerve/"
+    }
+  ]
+}

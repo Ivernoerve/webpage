@@ -15,6 +15,17 @@ body {
  
 }
 
+
+a{
+  color:rgb(225, 77, 42);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
 .content {
   margin-bottom: 2rem;
   padding: .5em 15%;
