@@ -4,7 +4,7 @@ date: 2023-02-16T13:18:48+01:00
 draft: false    
 math: false
 categories: 
- - misc 
+ - life
 ---
 
 

@@ -6,9 +6,7 @@ imgpath: wordle.jpeg
 git: https://github.com/Ivernoerve/wordle_solver
 ---
 
-One random afternoon at the university i sat with a friend and procrastinated from an assignment in my object oriented programming course, which led me to solve the wordle of the day. While solving it I wondered if i could make a program to solve it for me. And thus the work towards a wordle solver began.
-
-
+Wordle is a game similar to mastermind, in which you have guess the right word (sequence of letters). It also happens to be a favorite acticity when procrastinating. Having solved it a few times I wanted to create program to solve it for me and thus the work towards a wordle solver began.
 
 <!--more-->
 ## Approaching it mathematically
