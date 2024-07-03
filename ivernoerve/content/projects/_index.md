@@ -4,4 +4,6 @@ date: 2022-11-14T10:55:17+01:00
 draft: false
 math: true
 ---
-My fascination with programming started when I was introduced to Python through my master program at UiT, through my courses I've been able to delve deeper into Python as well as some R. Through my personal projects I've touched languages such as C, PHP, and JS. Listed below are some of the projects that I have worked on:
+Welcome to my Projects Page! 
+
+This is where I get my hands dirty and dive into the fascinating world of programming languages. I use this space to showcase the cool projects I've been working on, helping me sharpen my existing skills and explore new ones along the way. It's all about continuous learning and pushing the boundaries of what I can do with code.

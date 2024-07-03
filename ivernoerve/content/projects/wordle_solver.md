@@ -6,7 +6,7 @@ imgpath: wordle.jpeg
 git: https://github.com/Ivernoerve/wordle_solver
 ---
 
-Wordle is a game similar to mastermind, in which you have guess the right word (sequence of letters). It also happens to be a favorite acticity when procrastinating. Having solved it a few times I wanted to create program to solve it for me and thus the work towards a wordle solver began.
+Wordle is a game similar to mastermind, in which you have guess the right word (sequence of letters). It also happens to be a favorite acticity when procrastinating. Having solved it a few times I wanted to create a program to solve it for me. Thus the work towards a wordle solver began.
 
 <!--more-->
 ## Approaching it mathematically
@@ -17,3 +17,4 @@ Wordle is a game similar to mastermind, in which you have guess the right word (
 ## Communicating with the browser 
 The program must be able to interact with the browser, so that it can insert guesses, remove invalid guesses, and get the responses for accepted guesses. This was acchieved with the selenium webdriver package, with a script.
 The program must be able to interact with the browser, so that it can insert guesses, remove invalid guesses, and get the responses for accepted guesses. This was acchieved with the selenium webdriver package by writing a general class _Browser_  for general webpage interaction i.e; input words, select elemenents etc...
+https://iver.noerve.com/projects/wordle_solver/
