@@ -1,8 +1,6 @@
 {{ partial "header.html" . }}
 <h1 class = "tax-backlink">
-    <a href={{ ref . "notes" }}>Notes</a> /
-    <a href={{ ref . (index .Params.categories 0)}}>{{index .Params.categories 0}}</a> /
-    {{ .Title }}</h1>
+    <a href={{ ref . "notes" }}>Notes</a>/<a href={{ ref . (index .Params.categories 0)}}>{{index .Params.categories 0}}</a>/{{ .Title }}</h1>
 
 
 
