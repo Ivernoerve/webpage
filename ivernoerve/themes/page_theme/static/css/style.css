@@ -91,9 +91,24 @@ a:hover{
   color:rgb(225, 77, 42) !important;
 }
 
+/* FOOTER */
+
 .site-footer{
+  display: block;
+  background-color: rgb(38, 39, 50);
   padding: .5em 7%;
-  background-color: rgb(230, 230, 230);
+  text-align: left;
+}
+
+.site-footer h4{
+  color: white;
+  margin-bottom: 0;
+}
+
+
+.site-footer p{
+  color: white;
+  margin-top: 0;
 }
 
 
