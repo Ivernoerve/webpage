@@ -17,13 +17,13 @@ now that I've been working for a while, I have made some reflections on what I a
 * OOP Design-patterns
 * Proper code structure (i.e pep8 for python)
 
-###  Tools
+###  Tools and formats
 
 * regex
 * json/ yaml
 * markdown
-* linux cli (bash/ zsh)
+* linux shell (bash/ zsh)
 * git 
 
 
-However, most important of all is the focus on learning paradigms over languages. Many programming languages are ment to be programmed in similar ways with they're own set of tradeoffs and advantages. Focus on learning the bigger concepts rather than just grinding languages. I have found that through learning the paradigms, it is easier to adapt to a new language through pages such as [learnXinYminutes](https://learnxinyminutes.com).
+However, most important of all is the focus on learning [programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm) over brute-force learning of more languages. Many programming languages are ment to be programmed in similar ways with they're own set of tradeoffs and advantages. Focus on learning the bigger concepts rather than just grinding languages. I have found that through learning the paradigms, it is easier to adapt to a new language through pages such as [learnXinYminutes](https://learnxinyminutes.com).
